@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtrosPlatos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="bg-secondary-subtle">
+    <nav class="navbar mi-navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a href="Portada.html"><img src="image/fotor-ai-2024112518183-removebg-preview.png" class="navbar-brand text-dark"width="100px" height="90px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="Plato.html">Plato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="Ingredientes.html">Ingredientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="Preparacion.html">Preparación</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Otra Información
+                </a>
+                <ul class="dropdown-menu bg-danger">
+                  <li><a class="dropdown-item text-warning" href="InformacionPersonal.html">Información Personal</a></li>
+                  <li><a class="dropdown-item text-warning" href="Reseñas.html">Reseñas</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="OtrosPlatoss text-center fw-bold fs-1 text-danger fst-italic">OTROS PLATOS</div>
+      <span class="placeholder col-12 bg-danger"></span>
+      
+      <div id="carruselFotos" class="carousel slide d-flex justify-content-center align-items-center">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselFotos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carruselFotos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carruselFotos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div id="carruselFotos" class="carousel slide"style="width: 600px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/sushi.jpg" class="d-block w-100 rounded text-dark" border="5px" style="height: 300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/pato.jpg" class="d-block w-100 rounded text-dark" border="5px" style="height: 300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/ramen.jpg" class="d-block w-100 rounded text-dark" border="5px" style="height: 300px;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselFotos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselFotos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
